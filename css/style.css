@@ -1,0 +1,99 @@
+*{
+    background-color: #612bee;
+}
+nav .nav-item{
+    padding: 12px;
+    display: inline-block;
+    font-size: 1.3em;
+}
+nav{
+    float: right;
+}
+header img{
+    position: relative;
+    left: 5px;
+}
+.display-inline{
+    display: inline-block;
+}
+header{
+    color: white;
+    font-family: serif;
+}
+header h1{
+    font-weight: 300;
+}
+.lets-play{
+    padding: 8px 20px;
+    background:  linear-gradient(45deg,#4289ff,#07f8c3);
+    border-radius: 15px;
+}
+
+header span{
+    font-weight: 700;
+}
+header h1{
+    position: relative;
+    top: -13px;
+    left: 10px;
+}
+
+/*end of header*/
+
+/*main part begins*/
+main .cart-one{
+    font-size: 1.2em;
+    color: white;
+    padding-left: 30px;
+    float: left;
+    width: 40%;
+    animation-name: transit-left;
+    position: relative;
+    animation-duration: 2s;
+}
+
+.msg{
+    font-size: 4em;
+}
+.cart-pic{
+    display: inline-block;
+}
+
+.store{
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    display: inline-block;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.app{
+    
+    animation-name: transit;
+    animation-duration: 2s;
+}
+.store span{
+    background-color: black;
+    color: white;
+    font-size: 1.4em;
+    display: block;
+}
+@keyframes transit-left {
+    0%{
+        left: -1000px;
+    }
+    100%{
+        left: 0;
+    }
+}
+
+@keyframes transit {
+    0%{
+        left: -1000px;
+    }
+    100%{
+        left: 0;
+    }
+}
